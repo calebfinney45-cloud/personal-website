@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Kaushan+Script&display=swap');
+*, *::before, *::after
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    margin: 0;
+}
+header
+{
+    background-color: #F0F4F8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Barlow", sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+}
+.logo
+{
+    font-weight: 700;
+    color: #2e23c3;
+}
+.link a
+{
+    color: #6323c3;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 400;
+    cursor: pointer;
+} 
+#about
+{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.bio
+{
+    font-family: "Barlow", sans-serif;
+    font-size: 1.2rem;
+    color: #333;
+    padding: 80px;
+}
+.bio h3
+{
+    font-family: "Barlow", sans-serif;
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.bio h1
+{
+    font-family: "Kaushan Script", cursive;
+    font-size: 2.5rem;
+    color: #2e23c3;
+    margin-bottom: 20px;
+}
+.bio p
+{
+font-family: 'Courier New', Courier, monospace;
+}
+
+.profile
+{
+    width: 100%;
+    height: auto;
+    margin-right: 100px;
+    transition: transform 0.3s ease;
+    box-shadow: #000000;
+}
+.profile:hover
+{
+    transform: scale(1.05);
+}
+#projects
+{
+    background-color: rgba(93, 95, 239, 0.05);
+    padding: 40px 40px;
+}
+.section-title
+{
+    font-family: "Kaushan Script", cursive;
+    font-size: 2rem;
+    color: #000000;
+    text-align: center;
+}
+.project-grid
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+}
+.project-card
+{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    padding: 20px;
+}
+.project-card:hover
+{
+    transform: translateY(-5px);
+}
+.project-card h3
+{
+    font-family: "Kaushan Script", cursive;
+    font-size: 1.4rem;
+    color: #2e23c3;
+}
+.project-card p
+{
+    font-family: 'Barlow', sans-serif;
+    color: #333;
+}
