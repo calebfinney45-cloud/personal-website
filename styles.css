@@ -6,10 +6,7 @@
     margin: 0;
     padding: 0;
 }
-body
-{
-    margin: 0;
-}
+
 header
 {
     background-color: #F0F4F8;
@@ -19,7 +16,6 @@ header
     align-items: center;
     font-family: "Barlow", sans-serif;
     font-size: 1.5rem;
-    margin: 0;
 }
 .logo
 {
@@ -72,7 +68,6 @@ font-family: 'Courier New', Courier, monospace;
     height: auto;
     margin-right: 100px;
     transition: transform 0.3s ease;
-    box-shadow: #000000;
 }
 .profile:hover
 {
